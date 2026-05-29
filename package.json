@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i src/input.css -o dist/styles.css --minify",
-    "dev": "tailwindcss -i src/input.css -o dist/styles.css --watch"
+    "build": "tailwindcss -i src/input.css -o styles.css --minify",
+    "dev": "tailwindcss -i src/input.css -o styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/andrius-cyber/fundrange-landing#readme",
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.0",
-    "tailwindcss": "^4.3.0"
+    "tailwindcss": "^3.4.19"
   }
 }
