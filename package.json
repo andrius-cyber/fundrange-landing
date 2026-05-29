@@ -1,0 +1,26 @@
+{
+  "name": "fund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o dist/styles.css --minify",
+    "dev": "tailwindcss -i src/input.css -o dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrius-cyber/fundrange-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/andrius-cyber/fundrange-landing/issues"
+  },
+  "homepage": "https://github.com/andrius-cyber/fundrange-landing#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
